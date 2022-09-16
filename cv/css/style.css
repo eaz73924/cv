@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-color: #FCF8E8;
+    font-family: "Inconsolata", serif;
+    color: rgb(62, 62, 62);
+}
+
+h1 {
+    font-family: "Karla", serif;
+    color: white;
+}
+
+h2 {
+    font-family: "Karla", serif;
+    font-size: 25px;
+    color: #DF7861
+}
+
+h3 {
+    font-family: "Karla", serif;
+    color: #ECB390;
+    text-align: center;
+    font-size: 20px;
+}
+
+a:link {
+    color: #DF7861;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #94B49F;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(62, 62, 62);
+}
+
+.button {
+    background-color: #ECB390; /* Green */
+    border: none;
+    padding: 15px 15px;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #DF7861;
+    color: white;
+    box-shadow: 5px 5px rgb(62, 62, 62);
+}
+
+
+.top {
+    background-color: #ECB390;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+.middle {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.bottom {
+    background-color: #94B49F;
+    padding: 5px;
+    color: white;
+    padding-left: 30px;
+    text-align: center;
+}
+
+hr {
+    border-top: 3px solid #DF7861;
+    width: 30%;
+}
+
+#butt {
+    color: white;
+    text-align: center;
+}
+
+#mypic {
+    border: 5px solid white;
+}
+
+#toppics {
+    position: absolute;
+    margin-left: -210px;
+    margin-top: 60px;
+}
+
+#h {
+    color: #DF7861;
+}
+
+#contactBody {
+    padding: 2%;
+    text-align: center;
+}
+
+form {
+    column-count: 2;
+    padding-left: 42%;
+    padding-right: 42%;
+}
+
+#langPic {
+    
+    padding-right: 10%;
+    height: 70px;
+    padding-left: 40%;
+    float: left;
+}
+#leadPic {
+    padding-left: 10%;
+    float: right;
+    height: 70px;
+}
+
+#skillPic {
+    padding-right: 10%;
+    height: 70px;
+    padding-left: 140%;
+    float: left;
+}
+
+.languages {
+    padding-left: 40%;
+    padding-right: 40%;
+    column-count: 2;
+}
+
+.leadership {
+    text-align: right;
+    padding-right: 40%;
+    padding-left: 40%;
+    column-count: 2;
+    height: 100px;
+    column-width: 100px;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 40%;
+    column-count: 2;
+    column-width: 200px;
+}
+/*
+FCF8E8 cream
+94B49F green
+ECB390 l orange
+DF7861 orange
+
+add border???
+*/
